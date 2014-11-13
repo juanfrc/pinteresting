@@ -14,6 +14,7 @@ gem "bootstrap-sass"
 gem 'devise', '~> 3.4.1'
 gem 'paperclip', '~> 4.2'
 
+
 group :development, :test do
 	gem 'sqlite3'	
 end
@@ -21,4 +22,5 @@ end
 group :production do
 	gem 'pg'
 	gem 'rails_12factor'
+	gem 'aws-sdk', '~> 1.58.0'
 end
