@@ -15,6 +15,8 @@ gem "bootstrap-sass"
 gem 'devise', '~> 3.4.1'
 gem 'paperclip', '~> 4.2'
 gem 'masonry-rails', '~> 0.2.1'
+gem 'will_paginate', '~> 3.0.7'
+gem 'will_paginate-bootstrap', '~> 1.0.1'
 
 
 group :development, :test do
